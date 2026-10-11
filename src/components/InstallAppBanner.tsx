@@ -27,7 +27,7 @@ export const InstallAppBanner: React.FC<InstallBannerProps> = ({
         <button
           onClick={install}
           className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg bg-amber-500 text-black hover:bg-amber-400 active:scale-95 transition-all shadow-sm ${className}`}
-          title="Install Alex Vance App to Home Screen / Desktop"
+          title="Install Yash Wajge App to Home Screen / Desktop"
         >
           <Download className="w-3.5 h-3.5" />
           <span className="hidden sm:inline">Get App</span>
@@ -55,10 +55,10 @@ export const InstallAppBanner: React.FC<InstallBannerProps> = ({
                 <div className="flex items-center justify-between pb-3 border-b border-white/10">
                   <div className="flex items-center gap-2">
                     <div className="w-8 h-8 rounded-lg bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 font-bold text-sm">
-                      AV
+                      YW
                     </div>
                     <div>
-                      <h3 className="text-sm font-bold text-white">Install Alex Vance App</h3>
+                      <h3 className="text-sm font-bold text-white">Install Yash Wajge App</h3>
                       <p className="text-[11px] text-slate-400">Add to iPhone / iPad Home Screen</p>
                     </div>
                   </div>
@@ -125,7 +125,7 @@ export const InstallAppBanner: React.FC<InstallBannerProps> = ({
           <div className="flex items-center gap-2.5">
             <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
             <p className="text-slate-200">
-              <strong className="text-white">Install the Alex Vance App</strong> for instant offline showreels &amp; faster browsing.
+              <strong className="text-white">Install the Yash Wajge App</strong> for instant offline showreels &amp; faster browsing.
             </p>
           </div>
           <div className="flex items-center gap-2 shrink-0">

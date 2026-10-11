@@ -31,7 +31,7 @@ export const Header: React.FC = () => {
             className="flex items-center gap-2 group text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded"
           >
             <span className="font-display text-xl sm:text-2xl font-bold tracking-tight text-white group-hover:text-amber-400 transition-colors">
-              Alex Vance
+              Yash Wajge
             </span>
           </Link>
 

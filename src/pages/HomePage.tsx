@@ -22,8 +22,8 @@ export const HomePage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Alex Vance | Video Editor for Reels, Shorts & YouTube"
-        description="Professional video editing for short-form and long-form content: high-retention Reels, Shorts & YouTube videos. View portfolio and hire Alex Vance."
+        title="Yash Wajge | Video Editor for Reels, Shorts & YouTube"
+        description="Professional video editing for short-form and long-form content: high-retention Reels, Shorts & YouTube videos. View portfolio and hire Yash Wajge."
         canonicalPath="/"
       />
 
@@ -46,7 +46,7 @@ export const HomePage: React.FC = () => {
                 </div>
 
                 <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.08] text-balance">
-                  Alex Vance – Video Editor for Creators &amp; Brands
+                  Yash Wajge – Video Editor for Creators &amp; Brands
                 </h1>
 
                 <p className="text-base sm:text-lg text-slate-300 max-w-xl leading-relaxed">
@@ -93,7 +93,7 @@ export const HomePage: React.FC = () => {
                   {showreelPlaying ? (
                     <iframe
                       src="https://www.youtube-nocookie.com/embed/R6MlUcmOul8?autoplay=1&mute=1&loop=1&playlist=R6MlUcmOul8"
-                      title="Alex Vance Video Editing Showreel"
+                      title="Yash Wajge Video Editing Showreel"
                       className="w-full h-full border-0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
@@ -105,7 +105,7 @@ export const HomePage: React.FC = () => {
                     >
                       <img
                         src="/images/editor-studio.webp"
-                        alt="Alex Vance video editing studio setup and timeline monitor"
+                        alt="Yash Wajge video editing studio setup and timeline monitor"
                         width={1200}
                         height={750}
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -272,7 +272,7 @@ export const HomePage: React.FC = () => {
                 to="/contact"
                 className="px-7 py-3.5 rounded-xl bg-amber-500 text-black font-bold text-sm hover:bg-amber-400 active:scale-95 transition-all shadow-xl shadow-amber-500/25 flex items-center gap-2"
               >
-                <span>Hire Alex Vance</span>
+                <span>Hire Yash Wajge</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <Link

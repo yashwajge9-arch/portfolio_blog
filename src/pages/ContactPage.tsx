@@ -8,7 +8,7 @@ export const ContactPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Contact Alex Vance | Book Video Editing Projects"
+        title="Contact Yash Wajge | Book Video Editing Projects"
         description="Get in touch to book freelance video editing for Reels, YouTube, and documentaries. Direct project inquiry form, rates, and contact links."
         canonicalPath="/contact"
       />

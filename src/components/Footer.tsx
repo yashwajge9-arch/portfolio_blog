@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-2 space-y-4">
             <Link to="/" className="inline-block">
               <span className="font-display text-2xl font-bold tracking-tight text-white hover:text-amber-400 transition-colors">
-                Alex Vance
+                Yash Wajge
               </span>
             </Link>
             <p className="text-slate-400 max-w-md text-sm leading-relaxed">
@@ -126,7 +126,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
-          <p>© {currentYear} Alex Vance. All rights reserved.</p>
+          <p>© {currentYear} Yash Wajge. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <Link to="/contact" className="hover:text-slate-200 transition-colors">
               Inquire

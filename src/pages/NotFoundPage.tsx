@@ -7,7 +7,7 @@ export const NotFoundPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="404 — Scene Not Found | Alex Vance"
+        title="404 — Scene Not Found | Yash Wajge"
         description="The requested page could not be located on the timeline. Return to the home portfolio or browse our video galleries."
         canonicalPath="/404"
       />

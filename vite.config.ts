@@ -23,8 +23,8 @@ export default defineConfig(() => {
         ],
         manifest: {
           id: '/',
-          name: 'Alex Vance | Video Editor Portfolio & App',
-          short_name: 'Alex Vance',
+          name: 'Yash Wajge | Video Editor Portfolio & App',
+          short_name: 'Yash Wajge',
           description:
             'Professional video editing for short-form and long-form content. High-retention Reels, Shorts & YouTube videos.',
           theme_color: '#0a0a0f',

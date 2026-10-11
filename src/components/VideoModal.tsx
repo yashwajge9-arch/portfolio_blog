@@ -42,7 +42,7 @@ export const VideoModal: React.FC<VideoModalProps> = ({ video, onClose }) => {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: `${video.title} | Alex Vance Edit`,
+          title: `${video.title} | Yash Wajge Edit`,
           text: `Check out this video edit: ${video.title}`,
           url: shareUrl,
         });

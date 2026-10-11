@@ -1,6 +1,6 @@
 // Helper for bookmarking videos and articles in the app (persisted in localStorage)
 
-const BOOKMARKS_KEY = 'alexvance_bookmarks';
+const BOOKMARKS_KEY = 'yashwajge_bookmarks';
 
 export interface BookmarkItem {
   id: string;
@@ -15,7 +15,7 @@ export interface BookmarkItem {
 export const getBookmarks = (): BookmarkItem[] => {
   if (typeof window === 'undefined') return [];
   try {
-    const raw = localStorage.getItem(BOOKMARKS_KEY);
+    const raw = localStorage.getItem(BOOKMARKS_KEY) || localStorage.getItem('alexvance_bookmarks');
     return raw ? JSON.parse(raw) : [];
   } catch {
     return [];

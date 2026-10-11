@@ -1,7 +1,7 @@
 {
   "id": "/",
-  "name": "Alex Vance | Video Editor Portfolio & App",
-  "short_name": "Alex Vance",
+  "name": "Yash Wajge | Video Editor Portfolio & App",
+  "short_name": "Yash Wajge",
   "description": "Professional video editing for short-form and long-form content. High-retention Reels, Shorts & YouTube videos.",
   "start_url": "/",
   "scope": "/",
@@ -53,7 +53,7 @@
       "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
     },
     {
-      "name": "Hire Alex Vance",
+      "name": "Hire Yash Wajge",
       "short_name": "Contact",
       "description": "Book video editing projects and request rates",
       "url": "/contact",

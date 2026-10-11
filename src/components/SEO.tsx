@@ -26,7 +26,7 @@ export const SEO: React.FC<SEOProps> = ({
 }) => {
   useEffect(() => {
     // 1. Update Title
-    const formattedTitle = title.includes('Alex Vance') ? title : `${title} | Alex Vance`;
+    const formattedTitle = title.includes('Yash Wajge') ? title : `${title} | Yash Wajge`;
     document.title = formattedTitle;
 
     // Helper to set or create meta tag
@@ -44,7 +44,8 @@ export const SEO: React.FC<SEOProps> = ({
     setMetaTag('name', 'description', description);
 
     // 3. Canonical URL
-    const fullCanonical = `https://alexvance.video${canonicalPath.startsWith('/') ? canonicalPath : `/${canonicalPath}`}`;
+    const baseUrl = typeof window !== 'undefined' && window.location.origin ? window.location.origin : 'https://yashwajge.video';
+    const fullCanonical = `${baseUrl}${canonicalPath.startsWith('/') ? canonicalPath : `/${canonicalPath}`}`;
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {
       canonicalLink = document.createElement('link');
@@ -58,7 +59,7 @@ export const SEO: React.FC<SEOProps> = ({
     setMetaTag('property', 'og:description', description);
     setMetaTag('property', 'og:type', ogType);
     setMetaTag('property', 'og:url', fullCanonical);
-    const fullImageUrl = ogImage.startsWith('http') ? ogImage : `https://alexvance.video${ogImage.startsWith('/') ? ogImage : `/${ogImage}`}`;
+    const fullImageUrl = ogImage.startsWith('http') ? ogImage : `${baseUrl}${ogImage.startsWith('/') ? ogImage : `/${ogImage}`}`;
     setMetaTag('property', 'og:image', fullImageUrl);
 
     // 5. Twitter Card Tags

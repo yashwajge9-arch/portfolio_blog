@@ -26,7 +26,7 @@ export const LongFormPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Long-Form Video Portfolio | YouTube & Docs by Alex Vance"
+        title="Long-Form Video Portfolio | YouTube & Docs by Yash Wajge"
         description="Cinematic long-form editing: multi-camera switching, documentary storytelling, DaVinci Resolve color grading, and broadcast sound design."
         canonicalPath="/long-form"
       />

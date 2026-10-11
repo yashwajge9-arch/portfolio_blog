@@ -1,12 +1,12 @@
 import { ServiceItem, TestimonialItem } from '../types';
 
 export const siteConfig = {
-  name: 'Alex Vance',
+  name: 'Yash Wajge',
   role: 'Video Editor & Storyteller',
-  headline: 'Alex Vance — Video Editor for Creators & Brands',
+  headline: 'Yash Wajge — Video Editor for Creators & Brands',
   tagline: 'High-retention editing, cinematic pacing, and strategic storytelling that turn viewers into subscribers and loyal customers.',
-  canonicalUrl: 'https://alexvance.video',
-  email: 'alex@vanceedit.com',
+  canonicalUrl: 'https://yashwajge.video',
+  email: 'yashwajge9@gmail.com',
   location: 'Remote · London & Worldwide (UTC / EST / PST)',
   availabilityStatus: 'Available for Q4/Q1 Projects',
   stats: [
@@ -16,10 +16,10 @@ export const siteConfig = {
     { label: 'Client Repeat Rate', value: '94%', sub: 'Long-term creator partnerships' },
   ],
   socials: {
-    youtube: 'https://youtube.com/@alexvanceedit',
-    instagram: 'https://instagram.com/alexvance.edit',
-    linkedin: 'https://linkedin.com/in/alexvance-editor',
-    twitter: 'https://x.com/alexvanceedit',
+    youtube: 'https://youtube.com/@yashwajge',
+    instagram: 'https://instagram.com/yashwajge.edit',
+    linkedin: 'https://linkedin.com/in/yashwajge',
+    twitter: 'https://x.com/yashwajge',
     whatsapp: 'https://wa.me/447700900123',
   },
   software: [
@@ -105,7 +105,7 @@ export const servicesData: ServiceItem[] = [
 export const testimonialsData: TestimonialItem[] = [
   {
     id: '1',
-    quote: "Alex transformed our channel's retention. Our average view duration went from 38% to 62% in the first month, and our subscriber growth tripled. He doesn't just edit clips; he understands storytelling.",
+    quote: "Yash transformed our channel's retention. Our average view duration went from 38% to 62% in the first month, and our subscriber growth tripled. He doesn't just edit clips; he understands storytelling.",
     clientName: 'Marcus Bennett',
     clientRole: 'Tech Creator & Founder',
     channelOrCompany: '1.2M YouTube Subscribers',
@@ -114,7 +114,7 @@ export const testimonialsData: TestimonialItem[] = [
   },
   {
     id: '2',
-    quote: 'Our short-form views exploded after switching to Alex. We gained over 250,000 Instagram followers in 90 days. His turnarounds are always on time, and the sound design quality is unmatched.',
+    quote: 'Our short-form views exploded after switching to Yash. We gained over 250,000 Instagram followers in 90 days. His turnarounds are always on time, and the sound design quality is unmatched.',
     clientName: 'Elena Rostova',
     clientRole: 'Head of Content',
     channelOrCompany: 'Nova Digital Agency',
@@ -123,7 +123,7 @@ export const testimonialsData: TestimonialItem[] = [
   },
   {
     id: '3',
-    quote: 'Finding an editor who can handle both fast-paced YouTube pacing and serious documentary narrative is rare. Alex handled our 6-part mini-series flawlessly under tight deadlines.',
+    quote: 'Finding an editor who can handle both fast-paced YouTube pacing and serious documentary narrative is rare. Yash handled our 6-part mini-series flawlessly under tight deadlines.',
     clientName: 'David Chen',
     clientRole: 'Executive Producer',
     channelOrCompany: 'Aura Media Studio',

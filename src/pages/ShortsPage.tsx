@@ -25,7 +25,7 @@ export const ShortsPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Short-Form Video Portfolio | Reels & TikTok by Alex Vance"
+        title="Short-Form Video Portfolio | Reels & TikTok by Yash Wajge"
         description="Browse vertical 9:16 video work for Instagram Reels, YouTube Shorts, and TikTok. High-retention hooks, kinetic subtitles, and pattern interrupts."
         canonicalPath="/shorts"
       />

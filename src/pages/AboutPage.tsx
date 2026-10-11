@@ -9,8 +9,8 @@ export const AboutPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="About Alex Vance | Video Editor, Colorist & Storyteller"
-        description="Learn about Alex Vance: 6+ years post-production experience, software proficiency in Premiere & DaVinci Resolve, 4-step workflow, and services."
+        title="About Yash Wajge | Video Editor, Colorist & Storyteller"
+        description="Learn about Yash Wajge: 6+ years post-production experience, software proficiency in Premiere & DaVinci Resolve, 4-step workflow, and services."
         canonicalPath="/about"
       />
 
@@ -23,7 +23,7 @@ export const AboutPage: React.FC = () => {
               <div className="relative rounded-2xl overflow-hidden bg-[#12131c] border border-white/10 shadow-2xl aspect-[4/5] group">
                 <img
                   src="/images/editor-portrait.webp"
-                  alt="Alex Vance - Professional Freelance Video Editor in Studio"
+                  alt="Yash Wajge - Professional Freelance Video Editor in Studio"
                   width={800}
                   height={1000}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -32,7 +32,7 @@ export const AboutPage: React.FC = () => {
 
                 <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-black/60 backdrop-blur-md border border-white/10 flex items-center justify-between text-xs">
                   <div>
-                    <p className="font-bold text-white text-sm">Alex Vance</p>
+                    <p className="font-bold text-white text-sm">Yash Wajge</p>
                     <p className="text-amber-400 font-medium">Remote · Available Worldwide</p>
                   </div>
                   <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
@@ -53,7 +53,7 @@ export const AboutPage: React.FC = () => {
 
               <div className="space-y-4 text-sm sm:text-base text-slate-300 leading-relaxed">
                 <p>
-                  I'm Alex Vance, a freelance video editor and post-production director. Over the past six years, I have cut over 350 videos generating more than 85 million views for venture-backed tech startups, high-profile creators, and media companies.
+                  I'm Yash Wajge, a freelance video editor and post-production director. Over the past six years, I have cut over 350 videos generating more than 85 million views for venture-backed tech startups, high-profile creators, and media companies.
                 </p>
                 <p>
                   My philosophy centers on one core truth: <strong className="text-white">an edit is not technical typing; it is audience psychology.</strong> Great pacing requires knowing what to omit. By combining rigorous retention analytics with cinematic color science and immersive sound design, I help channels double their average view duration and convert casual swipers into devoted advocates.
@@ -181,7 +181,7 @@ export const AboutPage: React.FC = () => {
                 to="/contact"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-amber-500 text-black font-bold text-sm hover:bg-amber-400 transition shadow-xl shadow-amber-500/20"
               >
-                <span>Get in Touch with Alex</span>
+                <span>Get in Touch with Yash</span>
                 <ArrowUpRight className="w-4 h-4" />
               </Link>
             </div>

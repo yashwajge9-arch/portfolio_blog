@@ -61,25 +61,25 @@ export const BlogPostPage: React.FC = () => {
     '@type': 'Article',
     headline: post.title,
     description: post.metaDescription,
-    image: `https://alexvance.video${post.image}`,
+    image: `https://yashwajge.video${post.image}`,
     datePublished: '2026-08-01T08:00:00+00:00',
     dateModified: '2026-10-08T09:00:00+00:00',
     author: {
       '@type': 'Person',
-      name: 'Alex Vance',
-      url: 'https://alexvance.video/about',
+      name: 'Yash Wajge',
+      url: 'https://yashwajge.video/about',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Alex Vance Video Editing',
+      name: 'Yash Wajge Video Editing',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://alexvance.video/pwa-192x192.png',
+        url: 'https://yashwajge.video/pwa-192x192.png',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://alexvance.video/blog/${post.slug}`,
+      '@id': `https://yashwajge.video/blog/${post.slug}`,
     },
   };
 
@@ -91,19 +91,19 @@ export const BlogPostPage: React.FC = () => {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://alexvance.video',
+        item: 'https://yashwajge.video',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Blog',
-        item: 'https://alexvance.video/blog',
+        item: 'https://yashwajge.video/blog',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: post.title,
-        item: `https://alexvance.video/blog/${post.slug}`,
+        item: `https://yashwajge.video/blog/${post.slug}`,
       },
     ],
   };
@@ -312,7 +312,7 @@ export const BlogPostPage: React.FC = () => {
         ogType="article"
         ogImage={post.image}
         articleData={{
-          author: 'Alex Vance',
+          author: 'Yash Wajge',
           publishedTime: '2026-08-01T08:00:00+00:00',
           section: 'Video Production',
           tags: [post.keyword, 'Video Editing', 'Post Production'],
@@ -350,7 +350,7 @@ export const BlogPostPage: React.FC = () => {
           {/* Byline & Metadata (Unboxed text with separators) */}
           <div className="flex flex-wrap items-center justify-between gap-4 pt-2 border-y border-white/5 py-3 text-xs text-slate-400">
             <div className="flex items-center gap-2.5">
-              <span className="text-white font-semibold">By Alex Vance</span>
+              <span className="text-white font-semibold">By Yash Wajge</span>
               <span aria-hidden="true">·</span>
               <span>{post.date}</span>
               <span aria-hidden="true">·</span>
@@ -432,7 +432,7 @@ export const BlogPostPage: React.FC = () => {
                 <span>Direct Studio Collaboration</span>
               </div>
               <h3 className="font-display text-2xl font-bold text-white leading-snug">
-                Want Alex Vance to Edit Your Next Video?
+                Want Yash Wajge to Edit Your Next Video?
               </h3>
               <p className="text-sm text-slate-300 max-w-xl leading-relaxed">
                 Take the guesswork out of audience retention, pacing, and color grading. Reserve dedicated post-production capacity for your upcoming project.
@@ -464,13 +464,13 @@ export const BlogPostPage: React.FC = () => {
               <div className="flex items-center gap-3">
                 <img
                   src="/images/editor-portrait.webp"
-                  alt="Alex Vance - Video Editor"
+                  alt="Yash Wajge - Video Editor"
                   width={96}
                   height={96}
                   className="w-12 h-12 rounded-full object-cover border border-amber-500/40"
                 />
                 <div>
-                  <h4 className="font-display text-sm font-bold text-white">Alex Vance</h4>
+                  <h4 className="font-display text-sm font-bold text-white">Yash Wajge</h4>
                   <p className="text-xs text-amber-400 font-medium">Lead Video Editor &amp; Colorist</p>
                 </div>
               </div>

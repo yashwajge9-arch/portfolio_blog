@@ -8,8 +8,8 @@ export const BlogListingPage: React.FC = () => {
   return (
     <>
       <SEO
-        title="Video Editing Blog & Guides | Alex Vance"
-        description="Actionable video editing tutorials, retention frameworks, NLE software comparisons, rates, and sound design guides by Alex Vance."
+        title="Video Editing Blog & Guides | Yash Wajge"
+        description="Actionable video editing tutorials, retention frameworks, NLE software comparisons, rates, and sound design guides by Yash Wajge."
         canonicalPath="/blog"
       />
 
