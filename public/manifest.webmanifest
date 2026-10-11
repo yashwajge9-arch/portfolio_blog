@@ -1,0 +1,63 @@
+{
+  "id": "/",
+  "name": "Alex Vance | Video Editor Portfolio & App",
+  "short_name": "Alex Vance",
+  "description": "Professional video editing for short-form and long-form content. High-retention Reels, Shorts & YouTube videos.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "categories": ["productivity", "entertainment", "portfolio"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Short-Form Gallery",
+      "short_name": "Shorts",
+      "description": "View 9:16 vertical Reels, Shorts, and TikTok video work",
+      "url": "/shorts",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Long-Form Gallery",
+      "short_name": "Long-Form",
+      "description": "View 16:9 YouTube, podcast, and documentary video edits",
+      "url": "/long-form",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Editorial Blog",
+      "short_name": "Blog",
+      "description": "10 in-depth guides on video pacing, software, and retention",
+      "url": "/blog",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Hire Alex Vance",
+      "short_name": "Contact",
+      "description": "Book video editing projects and request rates",
+      "url": "/contact",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
