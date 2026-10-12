@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
 import { ServicesStrip } from '../components/ServicesStrip';
 import { siteConfig } from '../data/siteConfig';
-import { ArrowUpRight, Award, Film, Sliders, CheckCircle2 } from 'lucide-react';
+import { ArrowUpRight, Award, Film, Sliders, CheckCircle2, Linkedin } from 'lucide-react';
 
 export const AboutPage: React.FC = () => {
   return (
@@ -78,6 +78,17 @@ export const AboutPage: React.FC = () => {
                 >
                   <span>Explore Shorts Work</span>
                 </Link>
+
+                <a
+                  href={siteConfig.socials.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="px-4 py-3 rounded-xl bg-white/5 hover:bg-blue-600/20 hover:border-blue-500/40 text-slate-200 hover:text-white font-medium text-sm border border-white/10 transition flex items-center gap-2"
+                  aria-label="Connect on LinkedIn"
+                >
+                  <Linkedin className="w-4 h-4 text-blue-400" />
+                  <span>LinkedIn</span>
+                </a>
               </div>
             </div>
           </div>

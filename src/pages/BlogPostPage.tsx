@@ -4,7 +4,8 @@ import { SEO } from '../components/SEO';
 import { TableOfContents } from '../components/TableOfContents';
 import { BlogCard } from '../components/BlogCard';
 import { getBlogPostBySlug, getRelatedPosts } from '../data/blogPosts';
-import { Share2, Bookmark, BookmarkCheck, ArrowLeft, ArrowUpRight, Check, HelpCircle } from 'lucide-react';
+import { siteConfig } from '../data/siteConfig';
+import { Share2, Bookmark, BookmarkCheck, ArrowLeft, ArrowUpRight, Check, HelpCircle, Linkedin } from 'lucide-react';
 import { isBookmarked, toggleBookmark } from '../utils/bookmarks';
 
 export const BlogPostPage: React.FC = () => {
@@ -477,13 +478,25 @@ export const BlogPostPage: React.FC = () => {
               <p className="text-xs text-slate-400 leading-relaxed">
                 Specializing in high-retention short-form pacing and documentary storytelling across YouTube, DaVinci Resolve, and Premiere Pro.
               </p>
-              <Link
-                to="/about"
-                className="inline-flex items-center gap-1 text-xs font-semibold text-slate-300 hover:text-white transition"
-              >
-                <span>Read Full Biography</span>
-                <ArrowUpRight className="w-3 h-3 text-amber-400" />
-              </Link>
+              <div className="flex items-center justify-between pt-1">
+                <Link
+                  to="/about"
+                  className="inline-flex items-center gap-1 text-xs font-semibold text-slate-300 hover:text-white transition"
+                >
+                  <span>Read Full Biography</span>
+                  <ArrowUpRight className="w-3 h-3 text-amber-400" />
+                </Link>
+                <a
+                  href={siteConfig.socials.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1 text-xs font-semibold text-blue-400 hover:text-blue-300 transition"
+                  aria-label="Connect with Yash Wajge on LinkedIn"
+                >
+                  <Linkedin className="w-3.5 h-3.5" />
+                  <span>LinkedIn</span>
+                </a>
+              </div>
             </div>
           </aside>
         </div>

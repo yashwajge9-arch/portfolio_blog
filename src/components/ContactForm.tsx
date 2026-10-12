@@ -6,7 +6,7 @@ export const ContactForm: React.FC = () => {
     name: '',
     email: '',
     projectType: 'Short-Form Content (Reels, TikTok, Shorts)',
-    budgetRange: '$1,000 – $2,500',
+    budgetRange: '₹15,000 – ₹40,000',
     message: '',
     websiteHoneypot: '', // Spam honeypot (hidden from real users)
   });
@@ -75,7 +75,7 @@ export const ContactForm: React.FC = () => {
               name: '',
               email: '',
               projectType: 'Short-Form Content (Reels, TikTok, Shorts)',
-              budgetRange: '$1,000 – $2,500',
+              budgetRange: '₹15,000 – ₹40,000',
               message: '',
               websiteHoneypot: '',
             });
@@ -180,7 +180,7 @@ export const ContactForm: React.FC = () => {
 
         <div>
           <label htmlFor="budgetRange" className="block text-xs font-semibold text-slate-300 mb-1.5">
-            Target Budget Range
+            Target Budget Range (₹ INR)
           </label>
           <select
             id="budgetRange"
@@ -188,10 +188,10 @@ export const ContactForm: React.FC = () => {
             onChange={(e) => setFormData({ ...formData, budgetRange: e.target.value })}
             className="w-full px-3.5 py-2.5 rounded-xl bg-[#141622] border border-white/10 text-sm text-white focus:outline-none focus:ring-2 focus:ring-amber-500 transition"
           >
-            <option value="Under $1,000">Under $1,000 (Single Short/Consultation)</option>
-            <option value="$1,000 – $2,500">$1,000 – $2,500 (Project / Batch)</option>
-            <option value="$2,500 – $5,000">$2,500 – $5,000 (Monthly Channel)</option>
-            <option value="$5,000+">$5,000+ (Full Post-Production Retainer)</option>
+            <option value="Under ₹15,000">Under ₹15,000 (Single Short / Test Edit)</option>
+            <option value="₹15,000 – ₹40,000">₹15,000 – ₹40,000 (Reels Batch / Project)</option>
+            <option value="₹40,000 – ₹80,000">₹40,000 – ₹80,000 (Monthly YouTube Series)</option>
+            <option value="₹80,000+">₹80,000+ (Full Post-Production Retainer)</option>
           </select>
         </div>
       </div>

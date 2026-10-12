@@ -7,7 +7,7 @@ export const siteConfig = {
   tagline: 'High-retention editing, cinematic pacing, and strategic storytelling that turn viewers into subscribers and loyal customers.',
   canonicalUrl: 'https://yashwajge.video',
   email: 'yashwajge9@gmail.com',
-  location: 'Remote · London & Worldwide (UTC / EST / PST)',
+  location: 'Remote · India & Worldwide (IST / UTC)',
   availabilityStatus: 'Available for Q4/Q1 Projects',
   stats: [
     { label: 'Total Views Generated', value: '85M+', sub: 'Across YouTube, Reels & TikTok' },
@@ -18,9 +18,9 @@ export const siteConfig = {
   socials: {
     youtube: 'https://youtube.com/@yashwajge',
     instagram: 'https://instagram.com/yashwajge.edit',
-    linkedin: 'https://linkedin.com/in/yashwajge',
+    linkedin: 'https://www.linkedin.com/in/yash-wajge-56b779391',
     twitter: 'https://x.com/yashwajge',
-    whatsapp: 'https://wa.me/447700900123',
+    whatsapp: 'https://wa.me/919876543210',
   },
   software: [
     { name: 'Adobe Premiere Pro', level: 'Expert (8+ yrs)', tag: 'NLE Editing' },
