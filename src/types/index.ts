@@ -14,6 +14,8 @@ export interface VideoItem {
   description: string;
   tools: string[];
   featured?: boolean;
+  isCustomReel?: boolean;
+  credits?: { role: string; name: string }[];
 }
 
 export interface BlogPost {

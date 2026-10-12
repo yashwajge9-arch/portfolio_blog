@@ -1,6 +1,6 @@
 import React from 'react';
 import { VideoItem } from '../types';
-import { Play, Clock, Eye } from 'lucide-react';
+import { Play, Clock, Eye, Sparkles } from 'lucide-react';
 
 interface VideoCardProps {
   video: VideoItem;
@@ -54,7 +54,8 @@ export const VideoCard: React.FC<VideoCardProps> = ({
 
           {/* Platform & Views overlay top */}
           <div className="absolute top-3 left-3 right-3 flex items-center justify-between text-[11px] text-white/90">
-            <span className="font-semibold text-amber-300 drop-shadow">
+            <span className="font-semibold text-amber-300 drop-shadow flex items-center gap-1">
+              {video.isCustomReel && <Sparkles className="w-3 h-3 text-amber-400" />}
               {video.platform}
             </span>
             <span className="flex items-center gap-1 drop-shadow bg-black/40 px-2 py-0.5 rounded-full backdrop-blur-xs">

@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280" width="720" height="1280" style="background:#0e1014; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Wes Anderson retro color filters & gradients -->
+    <linearGradient id="splitLeftGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a5240"/>
+      <stop offset="50%" stop-color="#343d31"/>
+      <stop offset="100%" stop-color="#21281f"/>
+    </linearGradient>
+
+    <linearGradient id="splitRightGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#415354"/>
+      <stop offset="50%" stop-color="#2f3f40"/>
+      <stop offset="100%" stop-color="#1f2c2d"/>
+    </linearGradient>
+
+    <linearGradient id="yellowDivider" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.65)"/>
+      <stop offset="25%" stop-color="rgba(0,0,0,0.1)"/>
+      <stop offset="75%" stop-color="rgba(0,0,0,0.2)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.85)"/>
+    </linearGradient>
+
+    <filter id="retroGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <!-- Left Side: Staircase in Mumbai (Green/Sepia Tone) -->
+  <rect x="0" y="0" width="360" height="1280" fill="url(#splitLeftGrad)"/>
+
+  <!-- Left Side Staircase Steps -->
+  <g opacity="0.6">
+    <path d="M 40 400 L 320 400 L 320 450 L 40 450 Z" fill="#2d3529"/>
+    <path d="M 40 450 L 320 450 L 320 520 L 40 520 Z" fill="#252d22"/>
+    <path d="M 40 520 L 320 520 L 320 600 L 40 600 Z" fill="#363f33"/>
+    <path d="M 40 600 L 320 600 L 320 690 L 40 690 Z" fill="#2d3529"/>
+    <path d="M 40 690 L 320 690 L 320 790 L 40 790 Z" fill="#1f261c"/>
+    <path d="M 40 790 L 320 790 L 320 900 L 40 900 Z" fill="#2a3227"/>
+  </g>
+
+  <!-- Left Character Silhouette / Walking Down Stairs -->
+  <g transform="translate(140, 520)">
+    <!-- Shadow -->
+    <ellipse cx="40" cy="270" rx="45" ry="12" fill="#141712" opacity="0.7"/>
+    <!-- Body -->
+    <rect x="25" y="100" width="34" height="75" rx="6" fill="#181c15"/> <!-- Dark tee -->
+    <!-- Bag / strap -->
+    <path d="M 22 105 L 14 165 L 28 170 Z" fill="#2f3b2d"/>
+    <!-- Bag pack on back -->
+    <rect x="10" y="108" width="16" height="42" rx="4" fill="#3c4939"/>
+    <!-- Head -->
+    <circle cx="42" cy="75" r="16" fill="#e2c4a2"/>
+    <!-- Hair -->
+    <path d="M 28 72 C 28 58 56 58 56 72 C 54 80 32 82 28 72 Z" fill="#1c1f1b"/>
+    <!-- Legs / relaxed pants -->
+    <path d="M 28 175 L 22 255 L 36 255 L 42 195 L 48 255 L 62 255 L 56 175 Z" fill="#e8dfce"/>
+    <!-- Shoes -->
+    <rect x="18" y="255" width="22" height="12" rx="4" fill="#ffffff"/>
+    <rect x="46" y="255" width="22" height="12" rx="4" fill="#f0ede6"/>
+  </g>
+
+  <!-- Left Marker: "line" -->
+  <g transform="translate(180, 430)">
+    <path d="M 10 10 Q 70 -10 160 20" fill="none" stroke="#67e8f9" stroke-width="3" stroke-dasharray="6,4"/>
+    <polygon points="165,22 153,15 156,26" fill="#67e8f9"/>
+    <text x="-45" y="16" fill="#ffffff" font-size="28" font-family="'Times New Roman', Georgia, serif" font-style="italic" font-weight="bold" filter="url(#retroGlow)">line</text>
+  </g>
+
+  <!-- Right Side: Elevator L-2 in Mumbai Office/Apartment -->
+  <rect x="360" y="0" width="360" height="1280" fill="url(#splitRightGrad)"/>
+
+  <!-- Right Side Elevator Doors & Call Box -->
+  <g opacity="0.6">
+    <rect x="380" y="200" width="320" height="850" fill="#2d3d3e" stroke="#1d2728" stroke-width="4"/>
+    <line x1="540" y1="200" x2="540" y2="1050" stroke="#182223" stroke-width="6"/>
+    <!-- Elevator top panel indicator -->
+    <rect x="490" y="220" width="100" height="36" rx="4" fill="#161e1f"/>
+    <text x="540" y="246" fill="#fef08a" font-size="20" font-family="monospace" font-weight="bold" text-anchor="middle">L-2  /</text>
+    <!-- Elevator handrail -->
+    <line x1="390" y1="620" x2="690" y2="620" stroke="#64748b" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right Character Silhouette / Woman in Elevator -->
+  <g transform="translate(500, 540)">
+    <!-- Shadow -->
+    <ellipse cx="38" cy="255" rx="40" ry="11" fill="#111718" opacity="0.7"/>
+    <!-- Head -->
+    <circle cx="38" cy="70" r="16" fill="#ebd2b9"/>
+    <!-- Hair -->
+    <path d="M 22 65 C 22 45 56 45 56 68 C 60 98 18 100 22 65 Z" fill="#31221b"/>
+    <!-- Striped Polo / Top (Green and White stripes) -->
+    <rect x="22" y="92" width="34" height="65" rx="5" fill="#388e3c"/>
+    <line x1="22" y1="105" x2="56" y2="105" stroke="#ffffff" stroke-width="6"/>
+    <line x1="22" y1="125" x2="56" y2="125" stroke="#ffffff" stroke-width="6"/>
+    <line x1="22" y1="145" x2="56" y2="145" stroke="#ffffff" stroke-width="6"/>
+    <!-- Skirt -->
+    <path d="M 22 157 L 16 200 L 60 200 L 56 157 Z" fill="#e0cfa4"/>
+    <!-- Legs -->
+    <rect x="26" y="200" width="10" height="42" fill="#ebd2b9"/>
+    <rect x="42" y="200" width="10" height="42" fill="#ebd2b9"/>
+    <!-- Socks & Shoes -->
+    <rect x="24" y="235" width="13" height="15" rx="3" fill="#ffffff"/>
+    <rect x="41" y="235" width="13" height="15" rx="3" fill="#ffffff"/>
+  </g>
+
+  <!-- Right Marker: "Balance" -->
+  <g transform="translate(530, 430)">
+    <text x="0" y="16" fill="#ffffff" font-size="28" font-family="'Times New Roman', Georgia, serif" font-style="italic" font-weight="bold" filter="url(#retroGlow)">Balance</text>
+  </g>
+
+  <!-- Center Split Yellow Line (The signature Wes Anderson divider) -->
+  <rect x="354" y="0" width="12" height="1280" fill="url(#yellowDivider)" filter="url(#retroGlow)"/>
+
+  <!-- Global Vignette Overlay -->
+  <rect x="0" y="0" width="720" height="1280" fill="url(#vignette)"/>
+
+  <!-- Top Hero Header / Wes Anderson Aesthetic Card -->
+  <g transform="translate(360, 110)" text-anchor="middle">
+    <!-- Director Tag Badge -->
+    <rect x="-190" y="-30" width="380" height="34" rx="17" fill="#0b0e14" fill-opacity="0.9" stroke="#facc15" stroke-width="1.5"/>
+    <text x="0" y="-8" fill="#facc15" font-size="12" font-weight="800" letter-spacing="3" text-anchor="middle">DIRECTED &amp; EDITED BY YASH WAJGE</text>
+
+    <!-- Main Title -->
+    <text x="0" y="70" fill="#facc15" font-size="44" font-weight="900" font-family="'Times New Roman', Georgia, serif" letter-spacing="2" filter="url(#retroGlow)">PARALLEL LIVES</text>
+    <!-- Subtitle Location -->
+    <text x="0" y="108" fill="#ffffff" font-size="22" font-weight="800" font-family="monospace" letter-spacing="8">MUMBAI · 08:00 AM</text>
+    <text x="0" y="138" fill="#fde047" font-size="15" font-style="italic" font-family="'Times New Roman', Georgia, serif" letter-spacing="1">"Your life, your design."</text>
+  </g>
+
+  <!-- Center Cross Graphic Overlay -->
+  <g transform="translate(360, 640)">
+    <circle cx="0" cy="0" r="32" fill="#0f172a" fill-opacity="0.85" stroke="#facc15" stroke-width="2"/>
+    <!-- Play Icon -->
+    <polygon points="-8,-14 16,0 -8,14" fill="#facc15"/>
+  </g>
+
+  <!-- Bottom Showcase Details Overlay -->
+  <g transform="translate(360, 1130)" text-anchor="middle">
+    <!-- Style pill -->
+    <rect x="-150" y="-30" width="300" height="28" rx="14" fill="#1e293b" fill-opacity="0.95" stroke="#94a3b8" stroke-width="1"/>
+    <text x="0" y="-12" fill="#f1f5f9" font-size="11" font-weight="700" letter-spacing="2">INSPIRED BY WES ANDERSON</text>
+
+    <!-- Metrics -->
+    <text x="0" y="26" fill="#ffffff" font-size="18" font-weight="800">1:29 Min Film · Split-Screen Symphony</text>
+    <text x="0" y="52" fill="#cbd5e1" font-size="13" font-weight="500">Produced by BBB · Colors &amp; Pacing by Yash Wajge</text>
+
+    <!-- Tags Pill Row -->
+    <g transform="translate(0, 75)">
+      <rect x="-170" y="0" width="105" height="24" rx="12" fill="#000000" fill-opacity="0.75" stroke="#ffffff" stroke-opacity="0.2"/>
+      <text x="-117" y="16" fill="#facc15" font-size="11" font-weight="600">Balance</text>
+
+      <rect x="-55" y="0" width="110" height="24" rx="12" fill="#000000" fill-opacity="0.75" stroke="#ffffff" stroke-opacity="0.2"/>
+      <text x="0" y="16" fill="#facc15" font-size="11" font-weight="600">Rhythm</text>
+
+      <rect x="65" y="0" width="105" height="24" rx="12" fill="#000000" fill-opacity="0.75" stroke="#ffffff" stroke-opacity="0.2"/>
+      <text x="117" y="16" fill="#facc15" font-size="11" font-weight="600">Harmony</text>
+    </g>
+  </g>
+</svg>

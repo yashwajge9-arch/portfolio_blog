@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { VideoItem } from '../types';
-import { X, Share2, Bookmark, BookmarkCheck, ExternalLink, Check } from 'lucide-react';
+import { X, Share2, Bookmark, BookmarkCheck, ExternalLink, Check, Clapperboard } from 'lucide-react';
 import { isBookmarked, toggleBookmark } from '../utils/bookmarks';
+import { ParallelLivesPlayer } from './ParallelLivesPlayer';
 
 interface VideoModalProps {
   video: VideoItem | null;
@@ -135,15 +136,19 @@ export const VideoModal: React.FC<VideoModalProps> = ({ video, onClose }) => {
           </div>
         </div>
 
-        {/* Video Player Embed (Loaded on-demand facade) */}
+        {/* Video Player Embed (Loaded on-demand facade or Custom Player) */}
         <div className={`relative bg-black w-full ${isShort ? 'aspect-[9/16]' : 'aspect-video'} overflow-hidden shrink-0`}>
-          <iframe
-            src={video.embedUrl}
-            title={video.title}
-            className="w-full h-full border-0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          />
+          {video.isCustomReel || video.id === 'short-parallel-lives' ? (
+            <ParallelLivesPlayer />
+          ) : (
+            <iframe
+              src={video.embedUrl}
+              title={video.title}
+              className="w-full h-full border-0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+          )}
         </div>
 
         {/* Video Info Details */}
@@ -168,6 +173,24 @@ export const VideoModal: React.FC<VideoModalProps> = ({ video, onClose }) => {
           <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
             {video.description}
           </p>
+
+          {/* Cast & Crew Credits if available */}
+          {video.credits && video.credits.length > 0 && (
+            <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 space-y-2 text-xs">
+              <div className="flex items-center gap-1.5 text-amber-400 font-semibold text-[11px] uppercase tracking-wider">
+                <Clapperboard className="w-3.5 h-3.5" />
+                <span>Film Production Credits</span>
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 pt-1 text-[11px]">
+                {video.credits.map((credit, idx) => (
+                  <div key={idx} className="space-y-0.5">
+                    <p className="text-slate-400 text-[10px]">{credit.role}</p>
+                    <p className="text-slate-200 font-medium">{credit.name}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Tools & Software Badges */}
           <div className="pt-2 border-t border-white/5 flex flex-wrap items-center justify-between gap-3 text-xs">
